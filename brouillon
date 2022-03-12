@@ -1,0 +1,51 @@
+<h1>HOME</h1>
+<h1>SEARCH</h1>
+<h1></h1>
+<h1>ADVERTISE</h1>
+<i><img src="./Assets/Icones/map_icon.svg" alt="map_icon" width="30px"></i>
+<h1>FACEBOOK</h1>
+<h1>TWITTER</h1>
+<h1>INSTAGRAM</h1>
+<h1>BLOG</h1>
+
+<header id="tete">
+    <ul>
+        <div>
+            <li style="float: left; padding: 25px 16px;"><a style=" color: white; text-decoration: none;" href="">[Events]</a></li>
+        </div>
+        <nav>
+            <div>
+                <li>
+                    <a href="">More</a>
+                </li>
+            </div>
+            <div>
+                <li><a href="">Blog</a> </li>
+            </div>
+            <div>
+                <li><a href="">About</a></li>
+            </div>
+            <div>
+                <li><a href="">Search</a></li>
+            </div>
+        </nav>
+    </ul>
+</header>
+<!--footer-->
+<footer>
+    <div class="container">
+        <div class="container-menu">
+            <ul>
+                <li> <a href="">SEARCH</a> </li>
+                <li> <a href="">ABOUT US</a> </li>
+                <li> <a href=""> ADVERTISE</a></li>
+                <li><i><img src="./Assets/Icones/map_icon.svg" alt="map_icon" width="30px"></i>
+                </li>
+                <li> <a href="">FACEBOOK</a> </li>
+                <li> <a href="">TWITTER</a> </li>
+                <li> <a href="">INSTAGRAM</a> </li>
+                <li><a href="">BLOG</a> </li>
+            </ul>
+        </div>
+    </div>
+</footer>

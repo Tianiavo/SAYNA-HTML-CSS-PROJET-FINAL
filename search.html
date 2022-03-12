@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[Events]</title>
+    <!--Boostrap CSS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <!--Boostrap Icon-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./Assets/CSS/style.css">
+</head>
+
+<body style="overflow-x: hidden;">
+    <!--en-tete-->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col row">
+                    <div class="col-2"><i><img src="./Assets/Images/group-2.svg" alt="" width="70px"></i></div>
+                    <div class="col-10"><a href="">[Events]</a></div>
+                </div>
+                <div class="col row">
+                    <div class="col-3">
+                        <i class="bi-search"></i>
+                        <a href="search.html">Search</a>
+                    </div>
+                    <div class="col-3">
+                        <i class="bi bi-file-person"></i>
+                        <a href="">About</a>
+                    </div>
+                    <div class="col-3">
+                        <i><img src="./Assets/Icones/blog_icon.svg" alt="" width="30px"></i>
+                        <a href="">Blog</a>
+                    </div>
+                    <div class="col-3">
+                        <i><img src="./Assets/Icones/more_icon.svg" alt="" width="30px"></i>
+                        <a href="">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="py-3" style="background-color: #98a5a52a;">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h1>Filter by location, host, subject, date, daytime:</h1>
+                    <form>
+                        <div class="form-group row">
+                            <div class="col">
+                                <label for="lct">Location</label>
+                                <input class="form-control" type="text" id="lct">
+                            </div>
+                            <div class="col">
+                                <label for="host">Host</label>
+                                <input class="form-control" type="text" id="host">
+                            </div>
+                            <div class="col">
+                                <label for="sbjt">Subject</label>
+                                <input class="form-control" type="text" id="sbjt">
+                            </div>
+                            <div class="col">
+                                <label for="idate">Initial date</label>
+                                <input class="form-control" type="text" id="idate">
+                            </div>
+                            <div class="col">
+                                <label for="fdate">Final date</label>
+                                <input class="form-control" type="text" id="fdate">
+                            </div>
+                            <div class="col">
+                                <label for="dayt">Daytime</label>
+                                <input class="form-control" type="text" id="dayt">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section class="py-5">
+    <h2 class="text-center display-6 text-muted py-5">
+        Search result found 7 [Events] Nearby
+    </h2>
+    <div class="container">
+        <div class="row">
+            <div class="col text-white">
+                <figure class="position-relative" style="background-color: #d35649;">
+                    <img src="Assets/Images/group-2.svg" class="img-fluid" alt="">
+                    <figcaption class="position-absolute top-0 w-100 text-center fs-3">go [gathering] example</figcaption>
+                </figure>
+            </div>
+
+            <div class="col text-white">
+                <figure class="position-relative" style="background-color: #d35649;">
+                    <img src="Assets/Images/group-2.svg" class="img-fluid" alt="">
+                    <figcaption class="position-absolute top-0 w-100 text-center fs-3">go [gathering] example</figcaption>
+                </figure>
+            </div>
+
+            <div class="col text-white">
+                <figure class="position-relative" style="background-color: #d35649;">
+                    <img src="Assets/Images/group-2.svg" class="img-fluid" alt="">
+                    <figcaption class="position-absolute top-0 w-100 text-center fs-3">go [gathering] example</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    <section>
+
+    </section>
+    <!--Footer-->
+    <footer>
+        <!-- partie menu-->
+        <div class="container-footer">
+            <div class="row align-items-center" style="border-top: solid 1px #eee; border-bottom: solid 1px #eee;">
+                <div class="col"> <a href="index.html">HOME</a> </div>
+                <div class="col"><a href="">SEARCH</a></div>
+                <div class="col"><a href="">ABOUT US</a></div>
+                <div class="col"><a href=""> ADVERTISE</a></div>
+                <div class="col d-flex justify-content-center align-items-center" style="border: solid 1px #eee; height: 95px; width: 40px; border-radius: 50%;"><i><img src="./Assets/Icones/mapsnavbar_icon.svg" alt="map_icon" width="30px"></i></div>
+                <div class="col"><a href="">FACEBOOK</a></div>
+                <div class="col"><a href="">TWITTER</a></div>
+                <div class="col"><a href="">INSTAGRAM</a></div>
+                <div class="col"><a href="">BLOG</a> </div>
+            </div>
+            <br>
+            <br>
+            <!-- partie contact info-->
+            <div class="row">
+                <div class="col">
+                    <form action="/action_page.php">
+                        <label for="email"> <h1 class="foot-title">Subscribe</h1> </label> <br> <br>
+                        <input type="email" id="email" placeholder="Insert your email here">
+                        <button type="button" class="btn-send">send</button>
+                    </form>
+                </div>
+                <div class="col">
+                    <h1 class="foot-title">Contact</h1>
+                    <p style="color: aliceblue; text-align: center;">Have a question or suggestion?</p>
+                    <p style="color: #d35649; text-align: center;">contact@events.com</p>
+                </div>
+                <div class="col">
+                    <h1 class="foot-title">About</h1>
+                    <p style="color: aliceblue; text-align: center;">[Events] is an online plateform that works to improve and increase social life connectionsm when this nightmare that are currently living in is over
+                        <a href="" style="color: #d35649;">learn more</a></p>
+                </div>
+            </div>
+        </div>
+        <!--partie media sociaux-->
+        <div class="container-bas de page text-white py-3">
+            <div class="row justify-content-between px-5">
+                <div class="col row">
+                    <div class="col-2"><i class="bi bi-facebook"></i></div>
+                    <div class="col-2"><i class="bi bi-twitter"></i></div>
+                    <div class="col-2"><i class="bi bi-instagram"></i></div>
+                    <div class="col-2"><i class="bi bi-twitter"></i></div>
+                    <div class="col-2"><i class="bi bi-linkedin"></i></div>
+                </div>
+                <div class="col">
+                    <p class="text-end">2020 [Events], All rights reserved</p>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+</body>
+
+</html>

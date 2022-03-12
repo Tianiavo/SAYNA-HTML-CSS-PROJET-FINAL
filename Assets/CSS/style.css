@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Open Sans, Arial, sans-serif;
+}
+
+svg {
+    fill: #fff !important;
+}
+
+
+/*en-tete*/
+
+header {
+    background-color: #d35649;
+    padding: 25px 16px;
+}
+
+header div a {
+    text-decoration: none;
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+header div a:hover {
+    color: white;
+}
+
+
+/*Contenu index page*/
+
+.container-index {
+    background-image: url(../Images/group-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.container-index>div.style {
+    width: 75%;
+    margin: auto;
+}
+
+.search {
+    background-color: white;
+    opacity: 0.75;
+    width: 50%;
+    margin: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.work {
+    background-color: white;
+    opacity: 0.75;
+    width: 10%;
+    margin: auto;
+}
+
+
+/*index blanc*/
+
+main h1 {
+    color: #d35649;
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+/*index couleur*/
+
+.rose {
+    background-color: #d35649;
+}
+
+.Find {
+    background-color: white;
+    color: #d35649;
+}
+
+section div {
+    text-align: justify;
+}
+
+.gris {
+    background-color: #444;
+}
+
+.Learn {
+    background-color: white;
+    color: #444;
+}
+
+.bleu {
+    background-color: #509bd7;
+}
+
+
+/*Footer*/
+
+
+/*partie menu*/
+
+.container-footer {
+    width: 75%;
+    padding-top: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.container-footer a,
+header div a {
+    transition: all .3s;
+}
+
+.container-footer a:hover,
+header div a:hover {
+    color: #98a5a5;
+}
+
+footer {
+    background-color: black;
+}
+
+footer div a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+footer div a:hover {
+    color: white;
+}
+
+
+/*partie contact info*/
+
+.btn-send {
+    color: white;
+    background-color: #444;
+    border-radius: 1px;
+}
+
+.foot-title {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*partie media sociaux*/
+
+.container-bas {
+    background-color: #1f1f1f;
+}

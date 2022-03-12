@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*en-tete*/
+
+#tete {
+    background-color: #d35649;
+    color: white;
+}
+
+header>ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 16px;
+    text-decoration: none;
+}
+
+
+/*barre de navigation*/
+
+
+/*footer*/
+
+.container {
+    background-color: black;
+}
+
+.container-menu {
+    display: flex;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul {
+    display: flex;
+}
+
+footer ul>li a {
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
